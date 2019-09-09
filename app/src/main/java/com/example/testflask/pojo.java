@@ -10,49 +10,49 @@ public class pojo {
     private String nama;
     @SerializedName("kalori")
     @Expose
-    private Integer kalori;
+    private String kalori;
     @SerializedName("lemak")
     @Expose
-    private Integer lemak;
+    private String lemak;
     @SerializedName("kolesterol")
     @Expose
-    private Integer kolesterol;
+    private String kolesterol;
     @SerializedName("natrium")
     @Expose
-    private Integer natrium;
+    private String natrium;
     @SerializedName("kalium")
     @Expose
-    private Integer kalium;
+    private String kalium;
     @SerializedName("karbohidrat")
     @Expose
-    private Integer karbohidrat;
+    private String karbohidrat;
     @SerializedName("protein")
     @Expose
-    private Integer protein;
+    private String protein;
     @SerializedName("vitamin_a")
     @Expose
-    private Integer vitaminA;
+    private String vitaminA;
     @SerializedName("vitamin_c")
     @Expose
-    private Double vitaminC;
+    private String vitaminC;
     @SerializedName("vitamin_d")
     @Expose
-    private Integer vitaminD;
+    private String vitaminD;
     @SerializedName("vitamin_b6")
     @Expose
-    private Double vitaminB6;
+    private String vitaminB6;
     @SerializedName("vitamin_b12")
     @Expose
-    private Double vitaminB12;
+    private String vitaminB12;
     @SerializedName("kalsium")
     @Expose
-    private Integer kalsium;
+    private String kalsium;
     @SerializedName("zat_besi")
     @Expose
-    private Double zatBesi;
+    private String zatBesi;
     @SerializedName("magnesium")
     @Expose
-    private Integer magnesium;
+    private String magnesium;
     @SerializedName("deskripsi")
     @Expose
     private String deskripsi;
@@ -65,123 +65,124 @@ public class pojo {
         this.nama = nama;
     }
 
-    public Integer getKalori() {
+
+    public String getKalori() {
         return kalori;
     }
 
-    public void setKalori(Integer kalori) {
+    public void setKalori(String kalori) {
         this.kalori = kalori;
     }
 
-    public Integer getLemak() {
+    public String getLemak() {
         return lemak;
     }
 
-    public void setLemak(Integer lemak) {
+    public void setLemak(String lemak) {
         this.lemak = lemak;
     }
 
-    public Integer getKolesterol() {
+    public String getKolesterol() {
         return kolesterol;
     }
 
-    public void setKolesterol(Integer kolesterol) {
+    public void setKolesterol(String kolesterol) {
         this.kolesterol = kolesterol;
     }
 
-    public Integer getNatrium() {
+    public String getNatrium() {
         return natrium;
     }
 
-    public void setNatrium(Integer natrium) {
+    public void setNatrium(String natrium) {
         this.natrium = natrium;
     }
 
-    public Integer getKalium() {
+    public String getKalium() {
         return kalium;
     }
 
-    public void setKalium(Integer kalium) {
+    public void setKalium(String kalium) {
         this.kalium = kalium;
     }
 
-    public Integer getKarbohidrat() {
+    public String getKarbohidrat() {
         return karbohidrat;
     }
 
-    public void setKarbohidrat(Integer karbohidrat) {
+    public void setKarbohidrat(String karbohidrat) {
         this.karbohidrat = karbohidrat;
     }
 
-    public Integer getProtein() {
+    public String getProtein() {
         return protein;
     }
 
-    public void setProtein(Integer protein) {
+    public void setProtein(String protein) {
         this.protein = protein;
     }
 
-    public Integer getVitaminA() {
+    public String getVitaminA() {
         return vitaminA;
     }
 
-    public void setVitaminA(Integer vitaminA) {
+    public void setVitaminA(String vitaminA) {
         this.vitaminA = vitaminA;
     }
 
-    public Double getVitaminC() {
+    public String getVitaminC() {
         return vitaminC;
     }
 
-    public void setVitaminC(Double vitaminC) {
+    public void setVitaminC(String vitaminC) {
         this.vitaminC = vitaminC;
     }
 
-    public Integer getVitaminD() {
+    public String getVitaminD() {
         return vitaminD;
     }
 
-    public void setVitaminD(Integer vitaminD) {
+    public void setVitaminD(String vitaminD) {
         this.vitaminD = vitaminD;
     }
 
-    public Double getVitaminB6() {
+    public String getVitaminB6() {
         return vitaminB6;
     }
 
-    public void setVitaminB6(Double vitaminB6) {
+    public void setVitaminB6(String vitaminB6) {
         this.vitaminB6 = vitaminB6;
     }
 
-    public Double getVitaminB12() {
+    public String getVitaminB12() {
         return vitaminB12;
     }
 
-    public void setVitaminB12(Double vitaminB12) {
+    public void setVitaminB12(String vitaminB12) {
         this.vitaminB12 = vitaminB12;
     }
 
-    public Integer getKalsium() {
+    public String getKalsium() {
         return kalsium;
     }
 
-    public void setKalsium(Integer kalsium) {
+    public void setKalsium(String kalsium) {
         this.kalsium = kalsium;
     }
 
-    public Double getZatBesi() {
+    public String getZatBesi() {
         return zatBesi;
     }
 
-    public void setZatBesi(Double zatBesi) {
+    public void setZatBesi(String zatBesi) {
         this.zatBesi = zatBesi;
     }
 
-    public Integer getMagnesium() {
+    public String getMagnesium() {
         return magnesium;
     }
 
-    public void setMagnesium(Integer magnesium) {
+    public void setMagnesium(String magnesium) {
         this.magnesium = magnesium;
     }
 
