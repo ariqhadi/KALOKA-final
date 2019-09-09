@@ -16,6 +16,7 @@ public class pojo {
     private String lemak;
     @SerializedName("kolesterol")
     @Expose
+
     private String kolesterol;
     @SerializedName("natrium")
     @Expose
